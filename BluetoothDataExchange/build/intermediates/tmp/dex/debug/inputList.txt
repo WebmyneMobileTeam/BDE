@@ -1,0 +1,2 @@
+D:\DEMOS\BlueToothDataExchange2\BluetoothDataExchange\build\intermediates\classes\debug
+D:\DEMOS\BlueToothDataExchange2\BluetoothDataExchange\build\intermediates\pre-dexed\debug\android-support-v4-dbfc9b630b1a1933ff999281c372a69448d6eda6.jar

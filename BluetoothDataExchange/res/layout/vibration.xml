@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+       android:background="@drawable/frame"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/tv_vibration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:padding="5dp"
+            android:text="Vibration"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tv_vibration"
+            android:background="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:weightSum="1" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_vibration1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Vibration1"
+                android:textColor="#E6E6E6"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/chk_vibration1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                 android:button="@drawable/checkbox_selector" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:weightSum="1" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.80"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_vibration2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Vibration2"
+                android:textColor="#E6E6E6"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/chk_vibration2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:button="@drawable/checkbox_selector" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:weightSum="1" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.80"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_vibration3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Vibration3"
+                android:textColor="#E6E6E6"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/chk_vibration3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:button="@drawable/checkbox_selector" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:weightSum="1" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.80"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_vibration4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Vibration4"
+                android:textColor="#E6E6E6"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/chk_vibration4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:button="@drawable/checkbox_selector" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

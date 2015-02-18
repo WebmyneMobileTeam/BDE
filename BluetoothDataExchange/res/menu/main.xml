@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/visible"
+        android:icon="@drawable/ic_eyeoff"
+        android:checkable="true"
+        android:showAsAction="always"
+        android:title="visibility"/>
+     <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        android:showAsAction="always"
+        android:checkable="true"
+        android:title="share"/>
+
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/sett"
+        android:checkable="true"
+        android:showAsAction="always"
+        android:title="Settings"/>
+   
+    <item
+        android:id="@+id/question"
+        android:icon="@drawable/ic_quest"
+        android:checkable="true"
+        android:showAsAction="always"
+        android:title="questions"/>
+
+
+
+
+
+
+
+
+
+
+</menu>

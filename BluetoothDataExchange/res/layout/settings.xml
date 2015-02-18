@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:orientation="vertical"
+                android:padding="2dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:text="Notification"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/textView1"
+                    android:background="#FFFFFF" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:weightSum="1" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.80"
+                        android:gravity="left"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv_sound"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="Sound"
+                            android:textColor="#E6E6E6"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/txt_status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="disable"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.20"
+                        android:gravity="right"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/chk_sound"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/checkbox_selector"
+                            android:checked="true" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:weightSum="1" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.80"
+                        android:gravity="left"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv_vibration"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="Vibration"
+                            android:textColor="#E6E6E6"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/this_vistatus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="disable"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.20"
+                        android:gravity="right"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/this_vibrate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/checkbox_selector"
+                            android:checked="true" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:weightSum="1" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.80"
+                        android:gravity="left"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv_light"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="Light"
+                            android:textColor="#E6E6E6"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/tv_statuslight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="disable"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.20"
+                        android:gravity="right"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/chk_light"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/checkbox_selector"
+                            android:checked="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:padding="5dp"
+                    android:text="Start up"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/textView1"
+                    android:background="#FFFFFF" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:weightSum="1" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.80"
+                        android:gravity="left"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv_startonboot"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="Start on Boot"
+                            android:textColor="#E6E6E6"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/tv_statusstartonboot"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="disable"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.20"
+                        android:gravity="right"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/chk_startonboot"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/checkbox_selector" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:weightSum="1" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.80"
+                        android:gravity="left"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv_startonvisible"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="Visibility on Start"
+                            android:textColor="#E6E6E6"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/tv_statusstartonvisible"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="disable"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.20"
+                        android:gravity="right"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/chk_startonvisible"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/checkbox_selector" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:weightSum="1" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.80"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv_blthstartup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="Bluetooth on Start"
+                            android:textColor="#E6E6E6"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/tv_statusblthstartup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="disable"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.20"
+                        android:gravity="right"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/chk_bluetoothonstart"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/checkbox_selector" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Sound Test"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/button2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Silence Test"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_tone"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Tone Test"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
